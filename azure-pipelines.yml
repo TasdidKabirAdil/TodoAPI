@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
-  name: COMP367-Wins
+  name: COMP367
 
 variables:
   solution: '**/*.sln'
@@ -48,4 +48,4 @@ steps:
   displayName: NuGet push to artifact nuget feeds
   inputs:
     command: push
-    feedPublish: cb6db79e-fb46-458a-b910-ef34696069de # using nuget feed id not name here
+    feedPublish: a5343012-2bd3-4d4e-850d-fdea59f45388/3513aa28-1751-42b4-ade5-9c808d97c899 # using nuget feed id not name here
